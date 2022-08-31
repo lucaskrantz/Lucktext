@@ -27,6 +27,7 @@ if (gissning == rand)
 else
 {
     Console.WriteLine($"Du gissade fel, bättre lycka nästa gång! Rätt nummer var {rand}");
+    Console.WriteLine("Tryck på ENTER för att avsluta");
     Console.ReadLine();
 }
 
